@@ -323,4 +323,5 @@
 			return bindonceDirective;
 		});
 	})
+	module.exports = bindonceModule.name;
 })();
