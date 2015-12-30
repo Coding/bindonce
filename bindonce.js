@@ -8,6 +8,7 @@
 	 * @license MIT License, http://www.opensource.org/licenses/MIT
 	 */
 
+	var angular = require('angular');
 	var bindonceModule = angular.module('pasvaz.bindonce', []);
 
 	bindonceModule.directive('bindonce', function ()
